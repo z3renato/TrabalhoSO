@@ -1,4 +1,5 @@
 
+import Escalonadores.Prioridade;
 import Escalonadores.RoundRobin;
 
 /*
@@ -13,7 +14,8 @@ import Escalonadores.RoundRobin;
 public class Main {
     public static void main(String[] args) {
         RoundRobin round = new RoundRobin();
-        
+        Prioridade prioridade = new Prioridade();
         round.escalonar();
+        prioridade.escalonar();
     }
 }
